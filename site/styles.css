@@ -1,0 +1,51 @@
+:root {
+  --ink: #171918;
+  --muted: #68706b;
+  --paper: #f3f4ef;
+  --line: #cfd4cc;
+  --accent: #176b68;
+  --serif: 'Lato', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--serif); line-height: 1.55; }
+a { color: inherit; }
+.site-header, main, .site-footer { max-width: 1180px; margin: 0 auto; padding-left: 6vw; padding-right: 6vw; }
+.site-header { min-height: 78px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
+.wordmark { font-weight: 900; letter-spacing: .08em; text-decoration: none; }
+.wordmark span { color: var(--accent); }
+nav { display: flex; gap: 28px; font: 500 12px var(--mono); text-transform: uppercase; }
+nav a, .text-link { text-decoration: none; }
+nav a:hover, .text-link:hover { color: var(--accent); }
+.hero { padding: clamp(80px, 14vw, 170px) 0 120px; background: radial-gradient(circle at 85% 24%, rgba(23,107,104,.12), transparent 22%), linear-gradient(120deg, transparent 70%, rgba(207,212,204,.25)); }
+.eyebrow, .date, .section-label span { color: var(--accent); font: 500 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+h1 { max-width: 860px; margin: 22px 0 48px; font-size: clamp(42px, 7vw, 88px); line-height: .98; letter-spacing: -.045em; font-weight: 900; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(220px, .8fr); gap: 60px; align-items: end; }
+.hero-summary { max-width: 590px; margin: 0; color: #3f4742; font-size: 20px; }
+.hero-links { display: grid; gap: 18px; justify-items: start; }
+.button { padding: 13px 17px; color: var(--paper); background: var(--ink); text-decoration: none; font: 500 12px var(--mono); }
+.button:hover { background: var(--accent); }
+.section { padding: 84px 0; }
+.ruled { border-top: 1px solid var(--line); }
+.section-label { display: grid; grid-template-columns: 55px 1fr; gap: 22px; align-items: baseline; }
+h2 { margin: 0; font-size: 30px; letter-spacing: -.03em; }
+.timeline { margin: 60px 0 0 77px; }
+.timeline-item { display: grid; grid-template-columns: 140px 1fr; gap: 30px; padding: 0 0 48px; border-left: 1px solid var(--line); padding-left: 32px; position: relative; }
+.timeline-item::before { content: ''; width: 7px; height: 7px; position: absolute; left: -4px; top: 7px; background: var(--accent); }
+.date { margin: 0; font-size: 10px; }
+h3 { margin: 0; font-size: 22px; }
+h3 span, .role { color: var(--muted); font-weight: 400; }
+.role { margin: 3px 0 13px; font-size: 14px; }
+.timeline-item p:last-child { max-width: 590px; margin: 0; color: #4b534e; }
+.split-section { display: grid; grid-template-columns: 1fr 2fr; gap: 55px; border-top: 1px solid var(--line); }
+.skill-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
+.skill-grid h3 { color: var(--accent); font: 500 12px var(--mono); text-transform: uppercase; }
+.skill-grid p { margin-top: 14px; }
+.signal { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px; margin: 15px 0 100px; padding: 34px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 12px var(--mono); }
+.signal strong { color: var(--accent); font: 900 36px var(--serif); }
+.signal span { margin-right: 35px; color: var(--muted); }
+.site-footer { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding-top: 45px; padding-bottom: 55px; border-top: 1px solid var(--line); }
+.site-footer p { margin: 0; font-size: 22px; }.site-footer a { color: var(--accent); }.site-footer small { grid-column: 1 / -1; color: var(--muted); font: 10px var(--mono); }
+@media (max-width: 700px) { .site-header { min-height: 66px; } nav { gap: 12px; font-size: 9px; } .hero { padding: 78px 0 90px; } .hero-grid, .split-section { grid-template-columns: 1fr; gap: 35px; } h1 { font-size: clamp(44px, 13vw, 68px); } .hero-summary { font-size: 18px; } .timeline { margin-left: 0; } .timeline-item { grid-template-columns: 1fr; gap: 8px; padding-left: 22px; } .skill-grid { gap: 20px; } .site-footer { grid-template-columns: 1fr; } }

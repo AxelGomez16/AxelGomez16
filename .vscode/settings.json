@@ -1,0 +1,42 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#340941",
+    "titleBar.activeBackground": "#340941",
+    "titleBar.activeForeground": "#FCFCFF",
+    "titleBar.inactiveBackground": "#340941",
+    "titleBar.inactiveForeground": "#FCFCFF",
+    "statusBar.background": "#340941",
+    "statusBar.foreground": "#FCFCFF",
+    "statusBar.debuggingBackground": "#340941",
+    "statusBar.debuggingForeground": "#FCFCFF",
+    "statusBar.noFolderBackground": "#340941",
+    "statusBar.noFolderForeground": "#FCFCFF",
+  },
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": ["-interaction=nonstopmode", "-synctex=1", "%DOC%"],
+      "env": {}
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex",
+      "tools": ["pdflatex"]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex*2",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+    }
+  ],
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.recipe.default": "pdflatex -> bibtex -> pdflatex*2",
+  "latex-workshop.view.pdf.viewer": "tab"
+}

@@ -1,0 +1,15 @@
+# LaTeX build output
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+# .vscode/*
+!.vscode/extensions.json
