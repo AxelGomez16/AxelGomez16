@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Axel Gomez — engineering terminal</title>
+  <desc id="desc">An ASCII avatar selected by Axel Gomez beside his professional profile: Algorithms Engineer, Python and C++, automotive software and automation, hybrid metaheuristics and AI. LinkedIn: www.linkedin.com/in/axelgomez16. Email: axel.gomez.dev@gmail.com.</desc>
+  <rect x="1" y="1" width="958" height="518" rx="18" fill="#080f16" stroke="#263c4c" />
+  <g fill="none" stroke="#7dd5f5" stroke-opacity=".16">
+    <path d="M720 32 808 65 914 30M808 65 893 116 936 73M720 32 754 117 808 65" />
+  </g>
+  <g fill="#7dd5f5" opacity=".55">
+    <circle cx="720" cy="32" r="2" /><circle cx="808" cy="65" r="2" />
+    <circle cx="914" cy="30" r="2" /><circle cx="893" cy="116" r="2" />
+    <circle cx="754" cy="117" r="2" /><circle cx="936" cy="73" r="2" />
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace">
+    <text x="32" y="44" fill="#7dd5f5" font-size="15">axel@engineering:~$ whoami</text>
+    <path d="M32 64H928" stroke="#263c4c" />
+    <g transform="translate(-7 10) scale(1.4)">
+<g font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="4.95" xmlns="http://www.w3.org/2000/svg">
+    <text x="28" y="31.9" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="37.4" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="42.9" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="48.3" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="53.8" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="59.3" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="64.8" xml:space="preserve" fill="#7dd5f5">                            ..--.--.-.</text>
+    <text x="28" y="70.3" xml:space="preserve" fill="#7dd5f5">                     ....            .        ...</text>
+    <text x="28" y="75.8" xml:space="preserve" fill="#7dd5f5">                  .                     .  .... .....</text>
+    <text x="28" y="81.3" xml:space="preserve" fill="#7dd5f5">                  .                            ...........</text>
+    <text x="28" y="86.8" xml:space="preserve" fill="#7dd5f5">                  .</text>
+    <text x="28" y="92.3" xml:space="preserve" fill="#7dd5f5"></text>
+    <text x="28" y="97.8" xml:space="preserve" fill="#7dd5f5">                 .       ..--.......</text>
+    <text x="28" y="103.3" xml:space="preserve" fill="#7dd5f5">                 .     +*+++++**##*****+.</text>
+    <text x="28" y="108.8" xml:space="preserve" fill="#7dd5f5">                     -#*++-+++***#####***##+--+#@@@@@@@#</text>
+    <text x="28" y="114.3" xml:space="preserve" fill="#7dd5f5">                    +**++---+++****########@@@@@@@@@@@@@@+</text>
+    <text x="28" y="119.8" xml:space="preserve" fill="#7dd5f5">                   .#*++-----++***#####@#**##@@@@@@@@@@@@@.</text>
+    <text x="28" y="125.3" xml:space="preserve" fill="#7dd5f5">                 . -#++--------+**####@@@@**##@###@@@@@@@@@</text>
+    <text x="28" y="130.8" xml:space="preserve" fill="#7dd5f5">                 . -*+++-----..-++*#@@@@@@#+#@#+*##@@@@@@@@</text>
+    <text x="28" y="136.3" xml:space="preserve" fill="#7dd5f5">           .+++*** -#++---+------++--+*###*-##+-*#@@@@@@@@@.</text>
+    <text x="28" y="141.8" xml:space="preserve" fill="#7dd5f5">          .++----+-.#++---+##*++*#      @@--#--++...--@#@@@</text>
+    <text x="28" y="147.2" xml:space="preserve" fill="#7dd5f5">          ++.+--+--+#++--.-++++--*.    +@@.*#.+#.   . @@@@+</text>
+    <text x="28" y="152.7" xml:space="preserve" fill="#7dd5f5">          -*.*##+-.-#*++-.--++++--++++##*-*@@+.--    *@@@@</text>
+    <text x="28" y="158.2" xml:space="preserve" fill="#7dd5f5">           -+++++-..**++--.-++**############@@@******##@@*</text>
+    <text x="28" y="163.7" xml:space="preserve" fill="#7dd5f5">             +++++--+#++--.--+++****###*-.-+*#@@@@@@@@@@@</text>
+    <text x="28" y="169.2" xml:space="preserve" fill="#7dd5f5">                ..   #++--.--+++****#*+---+*#@@@@####@@@#</text>
+    <text x="28" y="174.7" xml:space="preserve" fill="#7dd5f5">                     +*+--..--+++****--...---+*#@######@</text>
+    <text x="28" y="180.2" xml:space="preserve" fill="#7dd5f5">                     .#+--...--+++**+...-.. .  +######@#</text>
+    <text x="28" y="185.7" xml:space="preserve" fill="#7dd5f5">                      #++--...-++++++++++--+*+*##*##*#@</text>
+    <text x="28" y="191.2" xml:space="preserve" fill="#7dd5f5">                      .#+--...-.++++++--+++++******++#</text>
+    <text x="28" y="196.7" xml:space="preserve" fill="#7dd5f5">                       +*---. ..-....-+++++++-+***+++</text>
+    <text x="28" y="202.2" xml:space="preserve" fill="#7dd5f5">                        +*---..--++++++++++***+---+-</text>
+    <text x="28" y="207.7" xml:space="preserve" fill="#7dd5f5">                         *+---..---+++++++********.</text>
+    <text x="28" y="213.2" xml:space="preserve" fill="#7dd5f5">                          ++--...---+++++*******+</text>
+    <text x="28" y="218.7" xml:space="preserve" fill="#7dd5f5">                           -+--..---+++********</text>
+    <text x="28" y="224.2" xml:space="preserve" fill="#7dd5f5">                           .-++-...-++******#+</text>
+    <text x="28" y="229.7" xml:space="preserve" fill="#7dd5f5">                            .----+--------*+</text>
+    <text x="28" y="235.2" xml:space="preserve" fill="#7dd5f5">                             .+.------+++@-</text>
+    <text x="28" y="240.7" xml:space="preserve" fill="#7dd5f5">                              --.....-+-</text>
+    <text x="28" y="246.1" xml:space="preserve" fill="#7dd5f5">                               +..-.-+-</text>
+    <text x="28" y="251.6" xml:space="preserve" fill="#7dd5f5">                              .#--++##</text>
+    <text x="28" y="257.1" xml:space="preserve" fill="#7dd5f5">                            .   .-*#@. .</text>
+    <text x="28" y="262.6" xml:space="preserve" fill="#7dd5f5">                                  .-  .....</text>
+    <text x="28" y="268.1" xml:space="preserve" fill="#7dd5f5">                     .              ...........</text>
+    <text x="28" y="273.6" xml:space="preserve" fill="#7dd5f5">                  .           .       ............</text>
+    <text x="28" y="279.1" xml:space="preserve" fill="#7dd5f5">                .              .--...-+-. .........</text>
+    <text x="28" y="284.6" xml:space="preserve" fill="#7dd5f5">               .              .-------+++-...........</text>
+    <text x="28" y="290.1" xml:space="preserve" fill="#7dd5f5">                             .-----++*+**++.-........</text>
+    <text x="28" y="295.6" xml:space="preserve" fill="#7dd5f5">                          .. .--...           ..  . .</text>
+    <text x="28" y="301.1" xml:space="preserve" fill="#7dd5f5">            .            --                         ..</text>
+    <text x="28" y="306.6" xml:space="preserve" fill="#7dd5f5">           .              ..                .       ..</text>
+    <text x="28" y="312.1" xml:space="preserve" fill="#7dd5f5">                                              ..    ..</text>
+    <text x="28" y="317.6" xml:space="preserve" fill="#7dd5f5">          .               .                 ...    ...</text>
+    <text x="28" y="323.1" xml:space="preserve" fill="#7dd5f5">                             .                 .   .</text>
+  </g>
+    </g>
+    <text x="380" y="133" fill="#e6edf1" font-size="38" font-weight="700">Axel Gomez<tspan fill="#7dd5f5">.</tspan></text>
+    <text x="380" y="169" fill="#b6c5cf" font-size="21">Algorithms Engineer</text>
+    <path d="M380 194H908" stroke="#263c4c" />
+    <g font-size="17">
+      <g fill="#7dd5f5">
+        <text x="380" y="232">Stack</text>
+        <text x="380" y="276">Work</text>
+        <text x="380" y="320">Research</text>
+        <g transform="translate(380 382)" aria-label="LinkedIn">
+          <rect width="22" height="22" rx="3" fill="#7dd5f5" />
+          <circle cx="5.5" cy="6" r="1.6" fill="#080f16" />
+          <path d="M5.5 10v7M10.5 17v-7m0 3c0-4 6-4 6 0v4" fill="none" stroke="#080f16" stroke-width="2.5" />
+        </g>
+        <g transform="translate(380 426)" fill="none" stroke="#7dd5f5" stroke-width="1.6" aria-label="Email">
+          <rect x="1" y="3" width="20" height="16" rx="2" />
+          <path d="m2 4 9 7 9-7" />
+        </g>
+      </g>
+      <g fill="#d0dbe1">
+        <text x="490" y="232">Python / C++</text>
+        <text x="490" y="276">Automotive software &amp; automation</text>
+        <text x="490" y="320">Hybrid metaheuristics &amp; AI</text>
+        <text x="420" y="400">in/axelgomez16</text>
+        <text x="420" y="444">axel.gomez.dev@gmail.com</text>
+      </g>
+    </g>
+  </g>
+</svg>
