@@ -6,10 +6,9 @@
 *.out
 *.synctex.gz
 *.toc
-*.pdf
 
 # OS and editor files
 .DS_Store
 Thumbs.db
-
+cv_images/
 !.vscode/extensions.json
