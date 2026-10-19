@@ -3,59 +3,340 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Axel Gomez - R&D Algorithms Engineer working with Python, C++, and automotive sensor systems." />
+    <meta name="theme-color" content="#061b25" />
+    <meta
+      name="description"
+      content="Axel Gomez: Algorithms Engineer in Queretaro, Mexico. Automotive perception, Python and C++ automation, applied AI, and optimization research."
+    />
     <title>Axel Gomez | Algorithms Engineer</title>
+    <link rel="icon" href="assets/axel-gomez.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script src="network.js" defer></script>
   </head>
-  <body>
-    <header class="site-header">
-      <a class="wordmark" href="./">AXEL<span>/</span>GOMEZ</a>
-      <nav aria-label="Primary navigation">
-        <a href="#experience">Experience</a>
-        <a href="#toolkit">Toolkit</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero" aria-labelledby="intro-title">
-        <p class="eyebrow">R&amp;D Algorithms Engineer / Queretaro, Mexico</p>
-        <h1 id="intro-title">Engineering reliable systems from complex sensor data.</h1>
-        <div class="hero-grid">
-          <p class="hero-summary">I build Python and C++ automation, validation, and reporting workflows for radar and LiDAR systems. Currently at Aumovio; open to relocation to Canada.</p>
-          <div class="hero-links">
-            <a class="button" href="../documents/cv/algorithms-engineer/canada/resume.tex">CV source <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="mailto:axel.gomez.dev@gmail.com">axel.gomez.dev@gmail.com</a>
-            <a class="text-link" href="https://www.linkedin.com/in/axelgomez16">LinkedIn</a>
-            <a class="text-link" href="https://github.com/AxelGomez16">GitHub</a>
+  <body class="resume-page">
+    <canvas id="network-background" aria-hidden="true"></canvas>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#" aria-label="Axel Gomez home">ag<span>.</span></a>
+        <nav aria-label="Primary navigation">
+          <a href="#work">Work experience</a>
+          <a href="#research">Research &amp; publications</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="intro" aria-labelledby="intro-title">
+          <div class="intro-heading">
+            <div>
+              <p class="overline">PYTHON / C++ / AUTOMOTIVE R&amp;D</p>
+              <h1 id="intro-title">Axel Gomez<span>.</span></h1>
+              <p class="intro-role">Algorithms Engineer</p>
+              <p class="location">
+                <i data-lucide="map-pin" aria-hidden="true"></i>Queretaro, Mexico
+                <span class="location-divider">/</span> Open to relocation
+              </p>
+            </div>
+            <img
+              class="portrait"
+              src="assets/axel-gomez.png"
+              alt="Axel Gomez"
+              width="104"
+              height="104"
+              fetchpriority="high"
+            />
           </div>
-        </div>
-      </section>
+          <p class="intro-copy">
+            I build Python and C++ software that helps teams evaluate sensor algorithms,
+            automate validation, and make release decisions. 4+ years in automotive R&amp;D;
+            currently at Aumovio and pursuing an MSc in Computer Science with an AI focus.
+          </p>
+          <div class="intro-bottom">
+            <div class="social-links" aria-label="Social links">
+              <a
+                class="icon-button"
+                href="mailto:axel.gomez.dev@gmail.com"
+                aria-label="Email Axel"
+                title="Email Axel"
+              ><i data-lucide="mail" aria-hidden="true"></i></a>
+              <a
+                class="icon-button"
+                href="https://www.linkedin.com/in/axelgomez16"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Axel on LinkedIn (opens in new tab)"
+                title="LinkedIn"
+              ><i data-lucide="linkedin" aria-hidden="true"></i></a>
+              <a
+                class="icon-button"
+                href="https://github.com/AxelGomez16"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Axel on GitHub (opens in new tab)"
+                title="GitHub"
+              ><i data-lucide="github" aria-hidden="true"></i></a>
+            </div>
+            <a
+              class="resume-link"
+              href="assets/cv/AxelGomez-algorithms-engineer.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Download CV <i data-lucide="download" aria-hidden="true"></i></a>
+          </div>
+        </section>
 
-      <section id="experience" class="section ruled" aria-labelledby="experience-title">
-        <div class="section-label"><span>01</span><h2 id="experience-title">Selected experience</h2></div>
-        <div class="timeline">
-          <article class="timeline-item"><p class="date">2022—NOW</p><div><h3>Aumovio <span>/ formerly Continental</span></h3><p class="role">R&amp;D Algorithms Engineer</p><p>Designing Python/C++ automation for GM radar validation, LiDAR and radar KPI reporting, simulation data generation, and CI/CD delivery.</p></div></article>
-          <article class="timeline-item"><p class="date">2024—NOW</p><div><h3>Freelance</h3><p class="role">Automation Engineer</p><p>Building modular content-distribution systems with scheduling, business rules, language variants, and multi-account management.</p></div></article>
-          <article class="timeline-item"><p class="date">2022</p><div><h3>Continental CTEP</h3><p class="role">Systems Engineer Trainee</p><p>Completed a V-Cycle project across systems, software, and testing, including a MISRA-oriented Body Control Module.</p></div></article>
-        </div>
-      </section>
+        <section id="work" class="section" aria-labelledby="work-title">
+          <div class="section-heading"><h2 id="work-title">Work experience</h2></div>
+          <article class="work-item">
+            <div class="entry-heading">
+              <h3>Aumovio <span class="formerly">formerly Continental R&amp;D</span></h3>
+              <span class="date">Jun 2022 &mdash; Present</span>
+            </div>
+            <p class="entry-role">Algorithms Engineer <span>&middot; Queretaro, Mexico</span></p>
+            <ul class="achievement-list">
+              <li>
+                <strong>Radar Model Validation:</strong> proposed and built a Python pipeline
+                that reduced a multi-engineer workflow from approximately
+                <strong>5 working days to one day</strong>, then refactored and migrated
+                the validation architecture to reach
+                <strong>50 minutes using GitHub Actions</strong> for General Motors deliverables.
+              </li>
+              <li>
+                <strong>LiDAR Perception &amp; Evaluation:</strong> built ground-truth metrics
+                for static-object detection and bounding-box query, commit/PR regression checks,
+                and company-accessible dashboards using Python, SQLite, Dash, and Plotly.
+                Developed C++ algorithm and point-cloud visualization features using eCAL
+                for component communication.
+              </li>
+              <li>
+                <strong>Algorithm Orchestration:</strong> migrated legacy C++ scheduler software
+                to new camera/radar parking-system requirements, supporting parallel algorithm
+                flows and per-frame failure handling.
+              </li>
+              <li>
+                <strong>Perception Integration:</strong> established two-week integration checks
+                to assess combined algorithm performance and give stakeholders evidence for
+                release decisions; prepared configurations for customer demonstrations, including CES.
+              </li>
+              <li>
+                <strong>Team Enablement &amp; Code Quality:</strong> configured Linux development
+                environments, trained teammates on new internal tools, and helped resolve QAC
+                static-analysis findings across algorithm components under AUTOSAR/MISRA-oriented
+                requirements.
+              </li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li>
+              <li>C++</li>
+              <li>Sensor validation</li>
+              <li>GitHub Actions</li>
+            </ul>
+          </article>
+          <article id="postealo" class="work-item">
+            <div class="entry-heading">
+              <h3>Postealo <span class="small-label">INDEPENDENT</span></h3>
+              <span class="date">Dec 2024 &mdash; Present</span>
+            </div>
+            <p class="entry-role">Developer &amp; Maintainer</p>
+            <ul class="achievement-list">
+              <li>
+                Built a Python publishing product connecting bot-based intake, LLM-assisted
+                editorial preparation, and immediate or scheduled delivery across five channels:
+                a client's website, Facebook, Instagram, X, and WhatsApp.
+              </li>
+              <li>
+                A paying news organization uses the product under a monthly subscription.
+                Own development, customer requirements, ongoing support, and requested feature
+                delivery alongside full-time employment.
+              </li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li>
+              <li>LLM integration</li>
+              <li>Workflow automation</li>
+            </ul>
+          </article>
+          <article class="work-item">
+            <div class="entry-heading">
+              <h3>Continental R&amp;D</h3>
+              <span class="date">Mar &mdash; Jun 2022</span>
+            </div>
+            <p class="entry-role">
+              Systems Engineer Trainee <span>&middot; Continental Talent Entry Program (CTEP)</span>
+            </p>
+            <p>
+              Completed a multidisciplinary engineering program following the automotive V-model.
+              Developed a vehicle door-lock and window-control prototype, connecting requirements
+              and software development with corresponding verification and testing activities.
+            </p>
+          </article>
+        </section>
 
-      <section id="toolkit" class="section split-section" aria-labelledby="toolkit-title">
-        <div class="section-label"><span>02</span><h2 id="toolkit-title">Working toolkit</h2></div>
-        <div class="skill-grid">
-          <div><h3>Build</h3><p>Python<br />C++ / C / MATLAB<br />CMake / Bash</p></div>
-          <div><h3>Automate</h3><p>GitHub Actions<br />Jenkins / Docker<br />Linux</p></div>
-          <div><h3>Measure</h3><p>NumPy / Pandas<br />OpenCV / Matplotlib<br />SQL / KPI design</p></div>
-        </div>
-      </section>
+        <section id="research" class="section" aria-labelledby="research-title">
+          <div class="section-heading"><h2 id="research-title">Research &amp; publications</h2></div>
+          <article class="research-item">
+            <div class="research-meta">
+              <span class="small-label">MASTER'S THESIS</span>
+              <span class="research-status">
+                <span class="status-dot" aria-hidden="true"></span>In progress
+              </span>
+            </div>
+            <h3>
+              Design of a Lightweight Asymmetric Cryptographic Model for IoT
+              Based on Hybrid Metaheuristics
+            </h3>
+            <p>
+              Exploring hybrid genetic algorithms and simulated annealing for resource-aware
+              cryptographic selection, with a planned evaluation on Raspberry Pi nodes.
+            </p>
+            <ul class="tags">
+              <li>Metaheuristics</li>
+              <li>IoT</li>
+              <li>Cryptography</li>
+            </ul>
+          </article>
+          <article class="research-item">
+            <div class="research-meta">
+              <span class="small-label">RESEARCH COLLABORATION</span>
+              <span class="research-status">
+                <span class="status-dot" aria-hidden="true"></span>In progress
+              </span>
+            </div>
+            <h3>Bio-inspired optimization for body-weight estimation</h3>
+            <p>
+              Collaborative research on estimating sheep body weight. My contribution focuses on
+              objective-function design and applying bio-inspired metaheuristics, including
+              Grey Wolf Optimizer, Flying Squirrel Optimizer, Cuckoo Search, and Bombardier Beetle
+              Optimizer, with the aim of reducing estimation error.
+            </p>
+            <p class="subtle-note">Manuscript in development; not yet published.</p>
+          </article>
+          <article class="research-item">
+            <div class="research-meta">
+              <span class="small-label">BACHELOR'S THESIS</span>
+              <span class="date">2021</span>
+            </div>
+            <h3>
+              <a
+                href="https://ri-ng.uaq.mx/handle/123456789/9265"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Development of Numerical Simulations of Electromagnetic Phenomena in
+                Space-System Prototypes <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            </h3>
+            <p>
+              Engineering Physics thesis at the Autonomous University of Queretaro.
+              Available in the university's institutional repository.
+            </p>
+          </article>
+        </section>
 
-      <section class="signal" aria-label="Career highlights"><strong>98%</strong><span>less manual reporting time</span><strong>4+</strong><span>years in software and algorithms</span><strong>2</strong><span>sensor domains: radar + LiDAR</span></section>
-    </main>
+        <section id="education" class="section" aria-labelledby="education-title">
+          <div class="section-heading"><h2 id="education-title">Education</h2></div>
+          <article class="education-item">
+            <div class="entry-heading">
+              <h3>MSc, Computer Science</h3>
+              <span class="date">2025 &mdash; Jul 2027 expected</span>
+            </div>
+            <p>Autonomous University of Queretaro <span>| Artificial Intelligence</span></p>
+          </article>
+          <article class="education-item">
+            <div class="entry-heading">
+              <h3>BSc, Engineering Physics</h3>
+              <span class="date">2017 &mdash; 2021</span>
+            </div>
+            <p>Autonomous University of Queretaro</p>
+          </article>
+        </section>
+        <section id="skills" class="section" aria-labelledby="skills-title">
+          <div class="section-heading"><h2 id="skills-title">Skills</h2></div>
+          <div class="toolkit">
+            <dl>
+              <div>
+                <dt>Software development</dt>
+                <dd>Python, C++, C, MATLAB, CMake, Linux, Bash</dd>
+              </div>
+              <div>
+                <dt>Data &amp; visualization</dt>
+                <dd>NumPy, Pandas, SQLite, Dash, Plotly, OpenCV, Matplotlib</dd>
+              </div>
+              <div>
+                <dt>Validation &amp; delivery</dt>
+                <dd>
+                  Automated validation, regression testing, CI/CD, Git, GitHub Actions,
+                  Jenkins, Docker
+                </dd>
+              </div>
+              <div>
+                <dt>Automotive engineering</dt>
+                <dd>
+                  LiDAR perception evaluation, radar model validation, algorithm integration,
+                  eCAL, QAC, MISRA, AUTOSAR
+                </dd>
+              </div>
+              <div>
+                <dt>AI &amp; optimization</dt>
+                <dd>
+                  LLM integration; metaheuristic optimization, genetic algorithms and
+                  simulated annealing (research); scikit-learn and PyTorch (academic)
+                </dd>
+              </div>
+              <div>
+                <dt>Spoken languages</dt>
+                <dd>English, Spanish</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
 
-    <footer id="contact" class="site-footer"><p>Let’s talk about dependable engineering.</p><div><a href="mailto:axel.gomez.dev@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/axelgomez16">LinkedIn</a> · <a href="https://github.com/AxelGomez16">GitHub</a></div><small>© 2026 Axel Gomez</small></footer>
+        <section id="contact" class="section contact" aria-labelledby="contact-title">
+          <div class="section-heading"><h2 id="contact-title">Contact</h2></div>
+          <p>Queretaro, Mexico | Open to relocation | Employer sponsorship required</p>
+          <div class="contact-email">
+            <a href="mailto:axel.gomez.dev@gmail.com">
+              <i data-lucide="mail" aria-hidden="true"></i> axel.gomez.dev@gmail.com
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+            <button
+              class="icon-button copy-email"
+              type="button"
+              aria-label="Copy email address"
+              title="Copy email address"
+            ><i data-lucide="copy" aria-hidden="true"></i></button>
+          </div>
+          <span class="copy-status" role="status" aria-live="polite"></span>
+          <div class="contact-links">
+            <a
+              href="https://www.linkedin.com/in/axelgomez16"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><i data-lucide="linkedin" aria-hidden="true"></i> LinkedIn
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <a
+              href="https://github.com/AxelGomez16"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><i data-lucide="github" aria-hidden="true"></i> GitHub
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+            <span>English &amp; Spanish</span>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <span>&copy; <span id="year">2026</span> Axel Gomez</span>
+        <a href="#" aria-label="Back to top" title="Back to top">
+          <i data-lucide="arrow-up" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </div>
+    <script src="assets/vendor/lucide.min.js" defer></script>
   </body>
 </html>
